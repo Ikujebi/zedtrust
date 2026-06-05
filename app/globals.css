@@ -8,8 +8,17 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  --color-lemon: #ccff00;
+  --color-forest-dark: #06150d;
+  --color-forest-mid: #0b291a;
+  --color-emerald-glow: #10b981;
+  --color-mint: #a7f3d0;
+  --font-sans: var(--font-roboto);
+  --font-heading: var(--font-montserrat);
+  --font-ui: var(--font-nunito);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +29,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-forest-dark);
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
 }
