@@ -9,9 +9,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const navLinks = [
-    { label: "Features", href: "#features" },
-    { label: "Analytics", href: "#analytics" },
-    { label: "Security", href: "#security" },
+    { label: "Features", href: "/features" },
+    { label: "Analytics", href: "/analytics" },
+    { label: "Security", href: "/security" },
   ];
  
   return (
