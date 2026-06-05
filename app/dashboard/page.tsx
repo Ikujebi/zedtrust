@@ -214,7 +214,7 @@ export default function DashboardPreview() {
             <Progress
               percent={22.41}
               strokeColor="#ccff00"
-              trailColor="#0b291a"
+              railColor="#0b291a"
               showInfo={false}
             />
           </Tooltip>
