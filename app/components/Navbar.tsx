@@ -13,7 +13,7 @@ export default function Navbar() {
     { label: "Analytics", href: "#analytics" },
     { label: "Security", href: "#security" },
   ];
-
+ 
   return (
     <>
       <motion.nav
